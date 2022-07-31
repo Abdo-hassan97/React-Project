@@ -1,0 +1,193 @@
+button{
+    width:40%;
+  }
+  .one{
+      padding-bottom: 5%;
+  }
+  .btngoogle{
+      margin-bottom: 2%;
+      background-color: white;
+      border: 1px solid gray;
+      font-size: small;
+  
+  }
+  .btnfacebook{
+      background-color: #5777b9;
+      font-size: small;
+
+  
+  }
+  .icon{
+      width:50%;
+      height: 50%;
+      position: absolute;
+      left: 7%;
+      top: 4%;
+     
+  }
+  .icon2{
+      width: 70%;
+      height: 70%;
+      position: absolute;
+      left: -3%;
+      top: 14%;
+  }
+  .fff{
+      position: relative;
+      width: 108%;
+  }
+  .ffff{
+      position: relative;
+      width: 108%;
+  }
+  .fname{
+      position: relative;
+      padding-top: 3%;
+  
+  }
+  .lname{
+      position: relative;
+      padding-top: 3%;
+  
+  }
+  
+  hr{
+      width: 30%;
+      margin-left: 50%;
+      position: absolute;
+      left: 35%;
+      z-index: -1;
+      background-color: rgb(255, 255, 255);
+      /* margin: 5rem 0; */
+  
+  }
+  input{
+      width: 28%;
+      position: absolute;
+      right: 31%;
+      /* top: 20% */
+      top: 8px;;
+  }
+  label{
+      padding-top: 10rem;
+      position: absolute;
+      top: 1%;
+      right: 29%;
+  }
+  .genders{
+      position: absolute;
+      left: 43%;
+      top: 19%;
+  }
+  .male,.female{
+      width: 50%;
+      padding: 500px;
+      
+  }
+  #mal,#fmal{
+      padding-right: 129%;
+      padding-left: 87%;
+  }
+  #vehicle1{
+      margin-right: -22%;
+      margin-top: 0.5%;
+  }
+  .mm{
+      margin-top: 3%;
+      right: 51%;
+      top: -328%;
+  }
+  #sp1{
+      color: green;
+  
+  }
+  #sp2{
+      color: #ff5a00;
+      cursor: pointer;
+  
+  }
+  #para,#para2{
+      padding-left: 30%;
+  }
+  #para2{
+     
+    position: absolute;
+    bottom: -125%;
+    right: 10%;
+    top: 81%;
+  }
+  #createBt{
+    width: 90%;
+    position: absolute;
+    right: 4%;
+    background-color: #ff5a00;
+    border: none;
+    padding: 1rem;
+    color: aliceblue;
+    font-size: large;
+    font-weight: 300;
+    border-radius: 2%;
+    top: -174%;
+  }
+  .para3{
+    position: absolute;
+    left: 59%;
+    top: -250%;
+
+  }
+  .para3:hover{
+    color: #ff5a00;
+    cursor: pointer;
+  }
+  body {
+    overflow: hidden; /* Hide scrollbars */
+  }
+  #err1{
+    position: absolute;
+    right: 54%;
+    top: 48%;
+  }
+  #err2{
+position: absolute;
+top: 57%;
+right: 50%;
+
+  }
+  form{
+    padding-right: 24%;
+  }
+  #elabel{
+    padding: 47%;
+    padding-bottom: 2%;
+  }
+  #plabel{
+    padding: 47%;
+  }
+  #emaildiv{
+    padding-bottom: 5%;
+    right: -6%;
+  }
+  #passdiv{
+    padding-bottom: 15%;
+    right: -6%;
+  }
+  #vehicle1 {
+    margin-right: -22%;
+    margin-top: -7.5%;
+}
+#inp1{
+    width: 46%;
+    position: absolute;
+    right: 30%;
+    top: 30px;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+#inp2{
+    width: 46%;
+    position: absolute;
+    right: 30%;
+    top: 30px;
+    border: none;
+    border-bottom: 1px solid grey;
+}

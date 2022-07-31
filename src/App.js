@@ -1,24 +1,30 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
+// import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
+
 import './App.css';
+// import LoginModal from './LoginModal/LoginModal';
+//  import Login from './Login/Login';
+ import Rigester from './Rigester/Rigester';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  <>
+  {/* <Login/> */}
+  <Rigester/>
+
+  {/* <Router>
+  <LoginModal/>
+      <Switch>
+        <Route path="/Login"  component={Login} />
+        <Route path="/Rigester"  component={Rigester} />
+      </Switch>
+    </Router> */}
+    </>
+
+
+  
+    
   );
 }
 

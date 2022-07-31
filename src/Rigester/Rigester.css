@@ -1,0 +1,232 @@
+button{
+  width:40%;
+}
+.one{
+    padding-bottom: 5%;
+}
+.btngoogle{
+    margin-bottom: 2%;
+    background-color: white;
+    border: 1px solid gray;
+    
+
+}
+.btnfacebook{
+    background-color: #5777b9;
+
+}
+.icon{
+    width:50%;
+    height: 50%;
+    position: absolute;
+    left: 7%;
+    top: 4%;
+   
+}
+.icon2{
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    left: -3%;
+    top: 14%;
+}
+.fff{
+    position: relative;
+}
+.ffff{
+    position: relative;
+}
+.fname{
+    position: relative;
+    padding-top: 3%;
+
+}
+.lname{
+    position: relative;
+    padding-top: 3%;
+
+}
+
+hr{
+    width: 30%;
+    margin-left: 50%;
+    position: absolute;
+    left: 35%;
+    z-index: -1;
+    background-color: rgb(255, 255, 255);
+    /* margin: 5rem 0; */
+
+}
+input{
+    width: 28%;
+    position: absolute;
+    right: 31%;
+    /* top: 20% */
+    top: 8px;;
+}
+label{
+    padding-top: 10rem;
+    position: absolute;
+    top: 1%;
+    right: 29%;
+}
+.genders{
+    position: absolute;
+    left: 43%;
+    top: 19%;
+}
+.male,.female{
+    width: 50%;
+    padding: 500px;
+    
+}
+#mal,#fmal{
+    padding-right: 129%;
+    padding-left: 87%;
+}
+#vehicle1{
+    margin-right: -22%;
+    margin-top: 0.5%;
+}
+.mm{
+    margin-top: 3%;
+}
+#sp1{
+    color: green;
+
+}
+#sp2{
+    color: #ff5a00;
+
+}
+#para,#para2{
+    padding-left: 30%;
+}
+#para2{
+    position: absolute;
+    bottom: -125%;
+    right: -10%;
+}
+#createBt{
+    width: 25%;
+    position: absolute;
+    right: 39%;
+    background-color: #ff5a00;
+    border: none;
+    padding: 1rem;
+    color: aliceblue;
+    font-size: large;
+    font-weight: 300;
+    border-radius: 2%;
+}
+body{
+    overflow-y: scroll;
+overflow-x: hidden;
+
+}
+  @media screen and (max-width : 768px){
+    input {
+        width: 39%;
+        position: absolute;
+        right: 30%;
+        top: 139%;
+        margin-bottom: -69%;
+        padding-bottom: -2%;
+    }
+.fname,.lname{
+    padding: 2%;
+}
+label{
+    top: 40%;
+}
+.genders{
+    top: 111%;
+    right: -93%;
+    left: 40%;
+}
+#fmal{
+    padding-right: 102%;
+    padding-left: 63%;
+}
+#mal{
+    padding-right: 67%;
+    padding-left: 64%;
+}
+#glab{
+    top: 90%;
+}
+#mb{
+    margin-bottom: 2rem!important;
+}
+    
+#vehicle1{
+    top: 77%;
+    left: -1%;
+}
+#createBt {
+    width: 38%;
+    position: absolute;
+    right: 30%;
+    background-color: #ff5a00;
+    border: none;
+    padding: 1rem;
+    color: aliceblue;
+    font-size: large;
+    top: -73%;
+    font-weight: 300;
+    border-radius: 2%;
+}
+#para2 {
+    padding-left: 25%;
+}
+  }
+  @media screen and (max-width : 480px){
+/* #fnamelabel{
+    right: -28%;
+    top: -30%;
+} */
+.fname,.lname{
+    padding: 4%;
+}
+label{
+    right: -29%;
+    top: 53%;
+}
+.genders{
+    top: 104%;
+    right: -153%;
+    left: 37%;
+}
+#fmal{
+    padding-right: 66%;
+    padding-left: 8%;
+}
+#mal{
+    padding-right: 58%;
+    padding-left: 11%;
+
+}
+#vehicle1{
+    top: 77%;
+    left: 15%;
+}
+#createBt {
+    width: 39%;
+    position: absolute;
+    right: 29%;
+    background-color: #ff5a00;
+    border: none;
+    padding: 1rem;
+    color: aliceblue;
+    font-size: large;
+    top: -73%;
+    font-weight: 300;
+    border-radius: 2%;
+}
+#para2 {
+    position: absolute;
+    bottom: -4%;
+    right: -6%;
+}
+
+  }

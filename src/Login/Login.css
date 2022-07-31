@@ -1,0 +1,257 @@
+button{
+    width:40%;
+  }
+  .one{
+      padding-bottom: 5%;
+  }
+  .btngoogle{
+      margin-bottom: 2%;
+      background-color: white;
+      border: 1px solid gray;
+      
+  
+  }
+  .btnfacebook{
+      background-color: #5777b9;
+  
+  }
+  .icon{
+      width:50%;
+      height: 50%;
+      position: absolute;
+      left: 7%;
+      top: 4%;
+     
+  }
+  .icon2{
+      width: 70%;
+      height: 70%;
+      position: absolute;
+      left: -3%;
+      top: 14%;
+  }
+  .fff{
+      position: relative;
+  }
+  .ffff{
+      position: relative;
+  }
+  .fname{
+      position: relative;
+      padding-top: 3%;
+  
+  }
+  .lname{
+      position: relative;
+      padding-top: 3%;
+  
+  }
+  
+  hr{
+      width: 30%;
+      margin-left: 50%;
+      position: absolute;
+      left: 35%;
+      z-index: -1;
+      background-color: rgb(255, 255, 255);
+      /* margin: 5rem 0; */
+  
+  }
+  input{
+      width: 28%;
+      position: absolute;
+      right: 31%;
+      /* top: 20% */
+      top: 8px;;
+  }
+  label{
+      padding-top: 10rem;
+      position: absolute;
+      top: 1%;
+      right: 29%;
+  }
+  .genders{
+      position: absolute;
+      left: 43%;
+      top: 19%;
+  }
+  .male,.female{
+      width: 50%;
+      padding: 500px;
+      
+  }
+  #mal,#fmal{
+      padding-right: 129%;
+      padding-left: 87%;
+  }
+  #vehicle1{
+      margin-right: -22%;
+      margin-top: 0.5%;
+  }
+  .mm{
+      margin-top: 3%;
+  }
+  #sp1{
+      color: green;
+  
+  }
+  #sp2{
+      color: #ff5a00;
+  
+  }
+  #para,#para2{
+      padding-left: 30%;
+  }
+  #para2{
+     
+      position: absolute;
+      bottom: -272%;
+      right: -7%;
+  }
+  #createBt{
+      width: 25%;
+      position: absolute;
+      right: 39%;
+      background-color: #ff5a00;
+      border: none;
+      padding: 1rem;
+      color: aliceblue;
+      font-size: large;
+      font-weight: 300;
+      border-radius: 2%;
+  }
+  .para3{
+    position: absolute;
+    left: 59%;
+    top: 25%;
+  }
+  .para3:hover{
+    color: #ff5a00;
+    cursor: pointer;
+  }
+  body {
+    overflow: hidden; /* Hide scrollbars */
+  }
+  #err1{
+    position: absolute;
+    right: 54%;
+    top: 48%;
+  }
+  #err2{
+position: absolute;
+top: 57%;
+right: 50%;
+
+  }
+  @media screen and (max-width : 768px){
+
+
+    input {
+        width: 39%;
+        position: absolute;
+        right: 31%;
+        /* top: 20%; */
+        top: 100%;
+    }
+    #smallscreen,#smallscreen {
+        margin-bottom: 3rem;
+    }
+    label{
+        top: -44%;
+
+    }
+    #labell{
+        right: 39%;
+        top: 50%;
+    }
+.para3{
+    top: 85%;
+}
+#para2{
+    position: absolute;
+    bottom: -342%;
+    right: -1%;
+}
+    
+  } 
+  @media screen and (max-width : 480px){
+
+
+    input {
+        width: 39%;
+        position: absolute;
+        right: 31%;
+        /* top: 20%; */
+        top: 100%;
+    }
+    #smallscreen,#smallscreen {
+        margin-bottom: 3rem;
+    }
+    label{
+        top: -44%;
+
+    }
+    #labell{
+        right: 39%;
+        top: 50%;
+    }
+.para3{
+    top: 85%;
+}
+#para2{
+    position: absolute;
+    bottom: -342%;
+    right: -1%;
+}
+.icon {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 1%;
+    top: 13%;
+}
+.icon2{
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    left: -7%;
+    top: 14%;
+}
+.fff{
+    width: 121%;
+    padding-right: 22%;
+}
+.ffff{
+    
+        position: relative;
+        width: 113%;
+        padding-right: 16%;
+        font-size: small;
+    
+}
+#email{
+    right: -28%;
+    top: -109%;
+}
+#ps{
+    right: -28%;
+    top: -109%;
+}
+#para2 {
+    position: absolute;
+    bottom: -529%;
+    right: 7%;
+}
+#labell {
+    right: -28%;
+    top: 50%;
+}
+#vehicle1 {
+    margin-right: -48%;
+    margin-top: 1.5%;
+}
+.para3{
+    display: none;
+}
+    
+  } 
